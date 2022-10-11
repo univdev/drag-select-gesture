@@ -1,0 +1,14 @@
+.DraggableContainer {
+  border: 1px solid #EEE;
+  width: 400px;
+  height: 400px;
+  .DragArea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 0, 0, .4);
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  }
+}
